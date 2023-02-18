@@ -17,10 +17,7 @@ def count_ru_vocal(world):
         if letter in dic_vocal:
             count += 1
     return count
-print(list(filter()))
 
-# print(list(filter(lambda x: x in dic_vocal, world)))
-# я до конца не понимаю как это применить в данной ситуации
 
 
 # 2. функция возвращает массив с подсчитанными гласными в каждом слове
@@ -43,6 +40,7 @@ my_text = list(map(str, input('text: ').split()))
 # print(my_text)
 # my_text2 = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
 # my_text2 = list(my_text2.split())
+
 # 5. собственно программа
 print(rythmus(count_vocal_list(my_text)))
 
